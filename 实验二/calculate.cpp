@@ -17,6 +17,6 @@ int main(){
 			if(G[i][j]){nei++;sum+=fri[j];}			
 		if(sum/nei>(double)fri[i])paradox++;
 	}
-	printf("%ratio:%.5lf",(double)paradox/V);
+	printf("ratio:%.5lf",(double)paradox/V);
 	return 0;
 }

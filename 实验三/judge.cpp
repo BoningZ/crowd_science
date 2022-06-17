@@ -37,14 +37,9 @@ int main(){
 						flag=1;
 						if(o<j)printf("conflict between %d and %d!\n",o+1,j+1);
 					}
-					/*if(G[o][j]<0&&!d[find(j)]){
-						d[find(j)]=d[find(o)]+1;
-						q.push(j);
-					}*/
 				}
 			}
 		}
-	for(int i=0;i<V;i++)printf("%d: d:%d f:%d\n",i+1,d[find(i)],find(i));
 	if(!flag)puts("no conflict!");
 	return 0;
 }

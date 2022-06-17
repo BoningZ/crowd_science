@@ -1,7 +1,10 @@
 #include<cstdio>
+#include<cstring>
+using namespace std;
 int g[505][505],n;
 double nei[505][505],clu[505];
 int main(){
+	freopen("data.txt","r",stdin);
 	printf("num of verticals:\n");
 	scanf("%d",&n);
 	printf("adjacency matrix:\n");

@@ -3,7 +3,7 @@
 #include<ctime>
 #include<algorithm>
 using namespace std;
-const int M=3,N=3;
+const int M=21,N=5;
 int a[N+5];
 int fact(int n){return n==1?1:n*fact(n-1);}
 int main(){

@@ -4,7 +4,7 @@
 #include<cstring>
 #include<algorithm>
 using namespace std;
-const int M=3,N=3;
+const int M=21,N=5;
 vector<int> link[N+5];
 queue<int> q;
 int rankof[M+5][N+5],vote[M+5][N+5],in[N+5],invalid[M+5],picked[N+5];
